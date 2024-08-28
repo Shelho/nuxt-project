@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@pinia/nuxt": "^0.5.4",
+    "nuxt": "^3.12.4",
+    "nuxt-windicss": "^3.0.1",
+    "vue": "latest"
+  }
+}
